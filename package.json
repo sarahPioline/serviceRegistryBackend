@@ -1,0 +1,33 @@
+{
+    "name": "api",
+    "version": "1.0.0",
+    "description": "API CRUD",
+    "main": "server.js",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "express": "^4.17.1",
+        "mongoose": "^5.11.13",
+        "save": "^2.4.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.7"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon -e js,json --watch . --ignore test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@gitlab.com/chuya.fr/serviceregistry_api.git"
+    },
+    "keywords": [
+        "API",
+        "CRUD"
+    ],
+    "author": "b3 dev mds",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://gitlab.com/chuya.fr/serviceregistry_api/issues"
+    },
+    "homepage": "https://gitlab.com/chuya.fr/serviceregistry_api#readme"
+}
