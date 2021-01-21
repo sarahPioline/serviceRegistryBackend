@@ -16,18 +16,10 @@
         "test": "echo \"Error: no test specified\" && exit 1",
         "dev": "nodemon -e js,json --watch . --ignore test"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+ssh://git@gitlab.com/chuya.fr/serviceregistry_api.git"
-    },
     "keywords": [
         "API",
         "CRUD"
     ],
     "author": "b3 dev mds",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://gitlab.com/chuya.fr/serviceregistry_api/issues"
-    },
-    "homepage": "https://gitlab.com/chuya.fr/serviceregistry_api#readme"
+    "license": "ISC"
 }
