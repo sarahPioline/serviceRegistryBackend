@@ -1,10 +1,5 @@
 const mongoose = require('mongoose');
-const ServicesSchema = require('../schema/ServiceSchema')
-
-mongoose.connect('mongodb://localhost/demo', {
-    useNewUrlParser: true,
-    useUnifiedTopology: true
-});
+const { ServicesSchema } = require('../schema/ServiceSchema')
 
 const { model } = mongoose;
 

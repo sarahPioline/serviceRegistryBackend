@@ -1,9 +1,12 @@
 const express = require('express');
 const bp = require('body-parser');
-
-const { Service } = require('./db/index');
-
-const { getServices, getOneService, postServices, putService, deleteService } = require('./lib/services.js')
+const {
+    getServices,
+    getOneService,
+    postServices,
+    putService,
+    deleteService
+} = require('./lib/services.js')
 
 const api = express();
 

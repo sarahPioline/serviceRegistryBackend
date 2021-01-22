@@ -1,10 +1,5 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/demo', {
-    useNewUrlParser: true,
-    useUnifiedTopology: true
-});
-
 const { Schema } = mongoose;
 
 const ServicesSchema = new Schema({
