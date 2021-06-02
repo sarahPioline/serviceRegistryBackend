@@ -1,5 +1,8 @@
 const express = require('express');
 const bp = require('body-parser');
+const cors = require('cors');
+const morgan = require('morgan');
+
 const {
     getServices,
     getOneService,
@@ -10,6 +13,8 @@ const {
 
 const api = express();
 
+api.use(cors());
+api.use(morgan('tiny'));
 api.use(bp.json());
 
 // liste des routes CRUD
